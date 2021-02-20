@@ -1,5 +1,17 @@
 # MedicalPass
  MedicalPass Blockchain based medical record system it aimed to create environment where anyone can allowed to view their own health status.
+ 
+One of current problems exist within the medical system is that a patient that is lack of self-awareness of their
+own medical condition, or not aware of themselves completely. Reason to this problem is the facility does not distribute a patient's
+medical history to himself/herself in a direct way. Patients can still get that information through a clinic or hospital, but it’s time
+consuming and inconvenient. One solution to this problem is to use DLT technology to manage medical records. Every time when the
+patient pays a visit to the clinic or hospital, getting prescripted by the doctor, even doing lab work. It will be recorded.
+Following 3 types will be in the focus the application:
+1. Patient
+2. Doctor
+3. Lab
+Since every medical activity will be recorded. Not just facilities can easily access patient’s information, but also patients will access to
+his/her condition in a convenient way as well.
 
 
 ### MedicalPass Smart Contract
