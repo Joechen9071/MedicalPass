@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Medical Pass Doctor</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel = "stylesheet" href="css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="css/toastr.min.css" />
+  <link rel="stylesheet" type="text/css" href="css/flat-ui.min.css" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+
+<body>
+    <div id ="reception_form"  style="width: 600;">
+    
+        <img class="mb-4" src="img/022-hospital.svg" alt="" width="125" height="125"  style="display: block; margin-left: auto; margin-right: auto; width: 50%;">
+        <input type="text" id="current_Address" class="form-control" placeholder="Address" required autofocus readonly style="display: block; margin-left: auto; margin-right: auto; width: 450px;">
+        <br>
+        <div class="form-group" style="display: block; margin-left: auto; margin-right: auto; width: 450px;">
+          <div style="display: inline-block">
+            <img class="mb-4" src="img/004-face mask.svg" alt="" width="45" height="45" >
+          </div>
+          <div style="display: inline-block">
+            <input type="text" id="name" class="form-control" placeholder="Patient Address" required autofocus style = "width: 400px;">
+          </div>
+        </div>
+    
+    
+        <br>
+        <div class="form-group" style="display: block; margin-left: auto; margin-right: auto; width: 450px;">
+            <div style="display: inline-block">
+              <img class="mb-4" src="img/014-doctor.svg" alt="" width="45" height="45" >
+            </div>
+            <div style="display: inline-block">
+              <input type="text" id="name" class="form-control" placeholder="Destination Address" required autofocus style = "width: 400px;">
+            </div>
+          </div>
+      
+      
+          <br>
+    
+        <div class="form-group" style="display: block; margin-left: auto; margin-right: auto; width: 450px;">
+          <div style="margin-bottom: 20;">
+            <div style="display: inline-block">
+              <img class="mb-4" src="img/030-medical report.svg" alt="" width="45" height="45" >
+            </div>
+            <div style="display: inline-block">
+              <label style="font-size: medium">Message: </label>
+            </div>
+          </div>
+          <textarea class="form-control" id="notes" rows="5" cols="50" ></textarea>
+        </div>
+    
+        <br>
+
+        <table class="table">
+            <thead class="thead-dark">
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">First</th>
+                <th scope="col">Last</th>
+                <th scope="col">Handle</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Larry</td>
+                <td>the Bird</td>
+                <td>@twitter</td>
+              </tr>
+            </tbody>
+          </table>
+        <br>
+    
+    
+        <div style="display: block; margin-left: auto; margin-right: auto; width: auto;">
+          <button type="button" class="btn btn-outline-primary">Accept Request</button>
+          <button type="button" class="btn btn-outline-primary">Decline Request</button>
+          <button type="button" class="btn btn-outline-primary">Send Result</button>
+          <button type="button" class="btn btn-outline-primary">Patient Info</button>
+          <button type="button" class="btn btn-outline-primary">View Request</button>
+
+        </div>
+      </div>
+</body>
+
+
+
+<script src="js/dist/jquery.min.js"></script>
+<script src="js/dist/bootstrap.min.js"></script>
+<script src="js/dist/jquery.countdown.min.js"></script>
+<script src="js/dist/wow.js"></script>
+<script src="js/dist/custom.js"></script>
+<script src="js/dist/bootstrap.min.js"></script>
+<script src="js/dist/toastr.min.js"></script>
+<script src="js/dist/web3.min.js"></script>
+<script src="js/dist/truffle-contract.js"></script>
+<script src="js/app.js"></script>
